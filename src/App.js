@@ -107,8 +107,7 @@ function App() {
     </div>
 
 
-    <Form>
-    </Form>
+    <Form/>
     </>
   );
 }
