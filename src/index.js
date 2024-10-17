@@ -45,6 +45,21 @@ root.render(
     </div>
 
     <App />
+
+       {/* Routing Section */}
+    <Router>
+      <div style={{ marginTop: '5rem', marginLeft: '1rem' }}>
+        
+
+        <Routes>
+          <Route path="/" element={<DefaultContent />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path='*' element= {<Error/>}/>
+        </Routes>
+      </div>
+    </Router>
   </>
 );
 
